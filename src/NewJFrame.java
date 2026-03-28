@@ -599,7 +599,7 @@ public class NewJFrame extends javax.swing.JFrame {
             }//end of loop
             if(!bfound)
             {
-                out.append(LocalDateTime.now().toString()+"Failed attempt#"+role+"#"+Usr+"#"+pass+"#"+getMacaddress()+"\n");
+                out.append(LocalDateTime.now().toString()+"# Failed attempt#"+role+"#"+Usr+"#"+pass+"#"+getMacaddress()+"\n");
                 System.out.println("Written!!!");
             }
             
